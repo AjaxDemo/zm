@@ -36,7 +36,6 @@ public class HelloWorldController {
     @RequestMapping("/easyImport")
     public String easyImport(@RequestParam("file") MultipartFile file) throws IOException {
         InputStream inputStream = file.getInputStream();
-
         EasyExcel.read(inputStream, UserInfoDTO.class,new DemoDataListener(userInfoMapper)).sheet().doRead();
         //获取数据
         return "index";
