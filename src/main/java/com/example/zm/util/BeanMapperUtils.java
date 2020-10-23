@@ -1,4 +1,4 @@
-package util;
+package com.example.zm.util;
 
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;

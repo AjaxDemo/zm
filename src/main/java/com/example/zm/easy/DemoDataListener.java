@@ -7,9 +7,8 @@ import com.example.zm.entity.UserInfoDTO;
 import com.example.zm.mapper.UserInfoMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import util.BeanMapperUtils;
+import com.example.zm.util.BeanMapperUtils;
 
 import java.util.ArrayList;
 import java.util.List;
