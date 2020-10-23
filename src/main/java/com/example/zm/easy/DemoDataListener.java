@@ -67,4 +67,5 @@ public class DemoDataListener extends AnalysisEventListener<UserInfoDTO> {
             list.clear();
         }
     }
+//test
 }
