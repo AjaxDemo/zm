@@ -15,4 +15,5 @@ public class UserInfo {
     private String gender;
     private String birthday;
     private String phone;
+    //private String test;
 }
