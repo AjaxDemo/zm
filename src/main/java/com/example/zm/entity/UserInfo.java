@@ -16,4 +16,5 @@ public class UserInfo {
     private String birthday;
     private String phone;
     //private String test;
+//  private int num;
 }
