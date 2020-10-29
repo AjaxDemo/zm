@@ -9,5 +9,6 @@ import lombok.Data;
 @Data
 public class RailWayInfo {
     private String lineName;
+    private String isTrans;
 
 }
